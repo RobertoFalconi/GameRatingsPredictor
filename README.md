@@ -1,11 +1,13 @@
-Hi everyone!
-This is a project originally made by Roberto Falconi and Federico Guidi with Professor Luigi Freda for their course "Quantitative Methods for Computer Science", based at Sapienza - University of Rome.
+# Game Ratings Predictor
 
-The code is open source and written in Python 3.x but it's also Python 2.x backward compatible.
+Hi everyone!  
+This is a project originally made by Roberto Falconi and Federico Guidi with Professor Luigi Freda for their course "Quantitative Methods for Computer Science", based at Sapienza - University of Rome.  
 
-The program uses the Kaggle dataset available at https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings and the Python libraries "Pandas" and "Sklearn".
+The code is open source and written in Python 3.x but it's also Python 2.x backward compatible.  
 
-This project goal is to classifie each video game in the dataset by ESRB rating, to do this we used Logistic Regression, Random Forest and k-NN.
+The program uses the Kaggle dataset available at https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings and the Python libraries "Pandas" and "Sklearn".  
+
+This project goal is to classifie each video game in the dataset by ESRB rating, to do this we used Logistic Regression, Random Forest and k-NN.  
 
 ### How to run GameRatingsPredictor
 **Ubuntu, Debian and macOS users:**
