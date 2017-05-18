@@ -1,7 +1,7 @@
-# Game Ratings Predictor
+# Game Ratings Predictor  
 
 Hi everyone!  
-This is a project originally made by Roberto Falconi and Federico Guidi with Professor Luigi Freda for their course "Quantitative Methods for Computer Science", based at Sapienza - University of Rome.  
+This is a project originally made by Roberto Falconi and Federico Guidi for the course "Quantitative Methods for Computer Science", based at Sapienza - University of Rome.  
 
 The code is open source and written in Python 3.x but it's also Python 2.x backward compatible.  
 
@@ -15,7 +15,7 @@ This project goal is to classifie each video game in the dataset by ESRB rating,
 First of all, you need **pip** and **Python** installed. If you're on Ubuntu or Debian, make sure you have Python Developer installed with `sudo apt-get install python-dev`. If you're on macOS, it should be already installed with Python. Otherwise, consider reinstalling Python.
 1. Upgrade pip to the latest version with `pip install --upgrade pip`.
 2. Download the repository and open a terminal inside the root.
-3. Run `sudo pip install -r requirements.txt`, it'll install all the required packages (about 88.4MB).
+3. Run `sudo pip install -r requirements.txt`, it'll install all the required packages.
 4. Now you have two options:
     1. Run `sudo python setup.py install --record files.txt`. Now you can run the whole project with the command line `algoritmo` anywhere in the terminal.<br>
 You can uninstall it with `cat files.txt | xargs rm -rf`.

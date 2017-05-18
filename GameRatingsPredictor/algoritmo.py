@@ -32,6 +32,7 @@ RUN_CROSSVALIDATION = False
 
 PRINT_DATASET_ANALYSIS = False
 PRINT_LEARNINGCURVES = False
+PRINT_LEARNINGCURVES2 = False
 
 
 def animate(i, stop_event):
@@ -134,6 +135,8 @@ def main():
 
         # http://stackoverflow.com/questions/26540035/rotate-label-text-in-seaborn-factorplot
         g.set_xticklabels(g.get_xticklabels(), rotation=90);
+
+
 
     # Eliminazione dei Platform obsoleti
 
@@ -290,7 +293,7 @@ def main():
     del df['Genre']
     del df['Publisher']
     del df['Developer']
-    del df['Name']
+
 
     # Eliminazione feature con elementi inferiori a 2
 
@@ -303,6 +306,8 @@ def main():
     # Salvo le y
 
     y_true = np.array(df['Rating'])
+    vector_names = np.array(df['Name'])
+    del df['Name']
 
     # Cambio le classi da E|E10+|T|M in 1|2|3|4 rispettivamente per evitare possibili problemi con
     # la classe E10+ e i caratteri speciali
@@ -687,7 +692,12 @@ def main():
     # print(y_true)
 
     print("Logistic Regression: %0.2f%%" % (accuracy_score(y_true_int, y_pred_final_log)*100))
-
+    print("\n")
+    i = 0
+    while i < 10:
+        print(vector_names[i], y_true_int[i], y_pred_final_log[i])
+        i += 1
+    print("\n")
     # --- Random Forest ---
 
     yB1 = radm1.predict_proba(X)
@@ -719,6 +729,23 @@ def main():
     # print(y_pred_final_rf)
     # print("Lunghezza y_true: " + str(len(y_true)))
     print("Random Forest: %0.2f%%" % (accuracy_score(y_true_int, y_pred_final_rf)*100))
+    print("\n")
+    i = 0
+    while i < vector_names.size:
+        if vector_names[i] == "FIFA 17": print(vector_names[i], y_true_int[i], y_pred_final_rf[i])
+        if vector_names[i] == "Uncharted 4: A Thief's End": print(vector_names[i], y_true_int[i], y_pred_final_rf[i])
+        if vector_names[i] == "Call of Duty: Infinite Warfare": print(vector_names[i], y_true_int[i], y_pred_final_rf[i])
+        if vector_names[i] == "Battlefield 1": print(vector_names[i], y_true_int[i], y_pred_final_rf[i])
+        if vector_names[i] == "Tom Clancy's The Division": print(vector_names[i], y_true_int[i], y_pred_final_rf[i])
+        if vector_names[i] == "Far Cry: Primal": print(vector_names[i], y_true_int[i], y_pred_final_rf[i])
+        if vector_names[i] == "Overwatch": print(vector_names[i], y_true_int[i], y_pred_final_rf[i])
+        if vector_names[i] == "NBA 2K17": print(vector_names[i], y_true_int[i], y_pred_final_rf[i])
+        if vector_names[i] == "Mafia III": print(vector_names[i], y_true_int[i], y_pred_final_rf[i])
+        if vector_names[i] == "Madden NFL 17": print(vector_names[i], y_true_int[i], y_pred_final_rf[i])
+        if vector_names[i] == "No Man's Sky": print(vector_names[i], y_true_int[i], y_pred_final_rf[i])
+        if vector_names[i] == "Dark Souls III": print(vector_names[i], y_true_int[i], y_pred_final_rf[i])
+        i += 1
+    print("\n")
 
     # --- k-NN ---
 
@@ -751,7 +778,11 @@ def main():
     # print(y_pred_final_knn)
     # print("Lunghezza y_true: " + str(len(y_true)))
     print("k-NN: %0.2f%%" % (accuracy_score(y_true_int, y_pred_final_knn)*100))
-
+    print("\n")
+    i = 0
+    while i < 10:
+        print(vector_names[i], y_true_int[i], y_pred_final_knn[i])
+        i += 1
     print("\n")
 
     plt.show()
