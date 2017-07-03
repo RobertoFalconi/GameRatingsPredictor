@@ -1,7 +1,7 @@
 # Game Ratings Predictor  
 
 Hi everyone!  
-This is a project originally made by Roberto Falconi and Federico Guidi for the course "Quantitative Methods for Computer Science", based at Sapienza - University of Rome.  
+This is a project originally made by Roberto Falconi and Federico Guidi for the course "Quantitative Methods for Computer Science" and its teacher Luigi Freda, based at Sapienza - University of Rome.  
 
 The code is open source and written in Python 3.x but it's also Python 2.x backward compatible.  
 
