@@ -17,7 +17,7 @@ If you're on Ubuntu or Debian, make sure you have Python Developer installed wit
 
 If you're on macOS, you can install Homebrew with `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` or update it with `brew update` (you can check it here: https://brew.sh) and then both Python and pip thanks to `brew install python`.
 
-1. Upgrade pip to the latest version with `pip install --upgrade pip` or `pip2 install --upgrade pip setuptools`.
+1. Upgrade pip to the latest version with `pip install --upgrade pip` or `pip2 install --upgrade pip`.
 2. Download the repository and open a terminal inside the root.
 3. Run `sudo pip install -r requirements.txt` or `sudo pip2 install -r requirements.txt`, it will install all the required packages.
 4. Enter `python algoritmo-runner.py` to run the project with without any installation.
