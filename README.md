@@ -12,7 +12,7 @@ This project goal is to classifie each video game in the dataset by ESRB rating,
 ### How to run GameRatingsPredictor
 **Ubuntu, Debian and macOS users:**
 
-First of all, you need **pip** and **Python** installed. If you're on Ubuntu or Debian, make sure you have Python Developer installed with `sudo apt-get install python-dev`. If you're on macOS, it should be already installed with Python. Otherwise, consider reinstalling Python.
+First of all, you need **pip** and **Python** installed. If you're on Ubuntu or Debian, make sure you have Python Developer installed with `sudo apt-get install python-dev`. If you're on macOS, you can install Homebrew with `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` (you can check it here: https://brew.sh) and then `brew install python`.
 1. Upgrade pip to the latest version with `pip install --upgrade pip`.
 2. Download the repository and open a terminal inside the root.
 3. Run `sudo pip install -r requirements.txt`, it'll install all the required packages.
