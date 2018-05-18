@@ -1,5 +1,5 @@
 1.	Titolo: Video Game Rating Predictor  
-2.	Autori: Roberto Falconi (50%), Federico Guidi (50%)  
+2.	Autori: Roberto Falconi, Federico Guidi
 3.	Classe di problema affrontato: Classificazione (su 4 variabili binarie)  
 4.	Dataset: https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings  
 5.	Descrizione features x:  
