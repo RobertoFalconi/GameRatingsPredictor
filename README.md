@@ -1,5 +1,10 @@
 # Game Ratings Predictor  
 
+SlideShare: https://www.slideshare.net/RobertoFalconi4/game-ratings-predictor-machine-learning-software-to-predict-video-games-content-rating  
+LinkedIn:  
+https://www.linkedin.com/in/federico-guidi/  
+https://www.linkedin.com/in/roberto-falconi/  
+  
 Hi everyone!  
 This is a project originally made by Roberto Falconi and Federico Guidi for the course "Quantitative Methods for Computer Science" and its teacher Luigi Freda, based at Sapienza - University of Rome.  
 
