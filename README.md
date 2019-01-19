@@ -1,13 +1,13 @@
 # Game Ratings Predictor  
 
-SlideShare: https://www.slideshare.net/RobertoFalconi4/game-ratings-predictor-machine-learning-software-to-predict-video-games-content-rating  
-LinkedIn:  
-https://www.linkedin.com/in/federico-guidi/  
-https://www.linkedin.com/in/roberto-falconi/  
-  
-Hi everyone!  
 This is a project originally made by Roberto Falconi and Federico Guidi for the course "Quantitative Methods for Computer Science" and its teacher Luigi Freda, based at Sapienza - University of Rome.  
 
+# Useful links
+- Portfolio: http://www.robertodaguarcino.com  
+- LinkedIn: https://www.linkedin.com/in/roberto-falconi  
+- GitHub: https://github.com/RobertoFalconi  
+- SlideShare: https://www.slideshare.net/RobertoFalconi4  
+  
 The code is open source and written in Python 3.x but it's also Python 2.x backward compatible.  
 
 The program uses the Kaggle dataset available at https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings and the Python libraries "Pandas" and "Sklearn".  
