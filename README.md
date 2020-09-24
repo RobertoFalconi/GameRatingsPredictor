@@ -5,7 +5,7 @@ This is a project originally made by Roberto Falconi and Federico Guidi for the 
 SlideShow: https://www.slideshare.net/RobertoFalconi4/game-ratings-predictor-machine-learning-software-to-predict-video-games-content-rating  
 
 # Useful links
-- Portfolio: http://www.robertodaguarcino.com  
+- Portfolio: https://robertodaguarcino.com  
 - LinkedIn: https://www.linkedin.com/in/roberto-falconi  
 - GitHub: https://github.com/RobertoFalconi  
 - SlideShare: https://www.slideshare.net/RobertoFalconi4  
